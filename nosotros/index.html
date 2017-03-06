@@ -31,7 +31,7 @@
 </script><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" media="all" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" media="all" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="../css/main.css">
 <meta name="Generator" content="Sitefinity 8.2.5914.0 PU" /><link href="/Telerik.Web.UI.WebResource.axd?d=-5RJezqR9gcYeaa9bmoAdJw1qjTKkCAeASEw8UM2CjAyFoKuJBs2pzZ-XiePdgU7GrJTOuts0aTzWLcEd9KHGdFXvld06Ag6ywHnDcahE0yxBO82IoW8xwOITXqsMgRxUwtK7w2&amp;t=636041074380000000&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Sitefinity.Resources%2c+Version%3d8.2.5914.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aen%3a16b24b29-b283-42dc-a02e-ccee7121f19f%3a7a90d6a" type="text/css" rel="stylesheet" /></head> <body><form method="post" action="./" id="aspnetForm">
 <div class="aspNetHidden">
 <input type="hidden" name="ctl05_TSM" id="ctl05_TSM" value="" />
@@ -56,7 +56,60 @@ function __doPostBack(eventTarget, eventArgument) {
 }
 //]]>
 </script>
+<style type="text/css">
+	
+/**
+* CONTENT
+*/
+#fullscreen {
+width: 100%;  
+height: 100%;  
+display: table;  
+background: url(../images/BOhomepg.jpg) no-repeat center center;  
+background-size: cover;  
+}
 
+.content { padding: 50px 0 250px 0; }
+.content .mobileTitle { display: none; }
+.content .textContainer { overflow: hidden; }
+.content .text { float: left; width: 585px; }
+.content .text h4 {
+    font-family: apexsansMedium; font-size: 1.625em; color: #0d0c0c;
+    margin: 0 0 25px 0;
+}
+.content .text p {
+    font-size: 1.064em; color: #0a0502;
+    margin: 0 0 36px 0;
+}
+.content .text p a {
+    font-weight: bold; color: #1c75bb;
+}
+.content .text p a:hover { opacity: 0.8; }
+.quotes { float: right; width: 330px; margin: 65px 0 0 0; }
+.quotes .quote {
+	pointer-events:none;
+    font-family: genBasicReg; font-size: 80px; color: #e6e6e6; line-height: 63px;
+    width: 36px; height: 24px;
+    display: inline-block;
+    vertical-align: top;
+}
+.quotes p {
+    font-family: apexsansBook; font-size: 1.875em; color: #6c6967;
+}
+
+.content strong { font-weight: bold; }
+.content ul {
+    list-style: disc;
+    padding: 0 0 10px 30px;
+}
+/*.content ul li { margin: 0 0 20px 0; }*/
+.content ol {
+    list-style: decimal;
+    padding: 0 0 10px 30px;
+}
+.content ol li { margin: 0 0 20px 0; }
+
+</style>
 
 <script src="/WebResource.axd?d=Ywn-jDG1EjOFtaZUvEINSjJAp4IwB4UtcY1qfZF2L6TQFKUy3-jgiPpgeS5hpifbWWE2xckcsAygDydbSjM-RJ04PyQ1&amp;t=636041074380000000" type="text/javascript"></script>
 
@@ -91,7 +144,6 @@ Sys.Application.setServerId("ctl05", "ctl00$ctl05");
 Sys.Application._enableHistoryInScriptManager();
 //]]>
 </script>
-
   <div class="all-content sfPublicWrapper" id="PublicWrapper"> 
 
 <div >
@@ -118,37 +170,37 @@ Sys.Application._enableHistoryInScriptManager();
 		<div id="navbar" class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
 		<li class="dropdown">
-			<a href="" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+			<a href="../" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
 				HOME
 			</a>
 			
 		</li>
 		<li class="dropdown">
-			<a href="/rockwater/servicios/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+			<a href="../servicios/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
 				Servicios
 			</a>
 			
 		</li>
 		<li class="dropdown">
-			<a href="/rockwater/nosotros/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+			<a href="/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
 				Nosotros
 			</a>
 			
 		</li>
 		<li class="dropdown">
-			<a href="rockwater/sectores/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+			<a href="../sectores/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
 				Sectores
 			</a>
 			
 		</li>
 		<li class="dropdown">
-			<a href="rockwater/blog/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+			<a href="../blog/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
 				Blog
 			</a>
 			
 		</li>
 		<li class="dropdown">
-			<a href="rockwater/contactenos/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+			<a href="../contactenos/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
 				Contactenos
 			</a>
 			
@@ -204,132 +256,66 @@ Sys.Application._enableHistoryInScriptManager();
  
 
 <div >
-    <div ><div class="pageTitleWrap cover-image-full-nav">
-<div class="pageTitleBack rw-wrapper"> <!--[if IE]>
-			<div class="ieFacepalm">
-				<div class="ieLine1">We practice the art of the long view.</div>
-				<div class="ieLine2">For over 30 years,</div>
-				<div class="ieLine3">We build to last.</div>
-			</div>
-		<![endif]-->
-<div class="hero-main-text">
-<div class="line-1">
-<p>We practice the</p>
-<p><em>Art of the Long View</em></p>
-</div>
-<div class="line-2">
-For over 30 years
-</div>
-<div class="line-3">
-We build to last
-</div>
-</div>
-
+    <div id="fullscreen">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>
 <!-- WHEEL-->
-<div class="blackBack">
+ <!-- Page Content --><br><br><br>
+    <div class="container">
 
-<div class="wheel-wrapper">
-<div class="linkWrap"> <!-- LINK 1 --> <a href="servicios/desarrollo-estrategico/" id="link1" class="wheelLink wow flipInX   animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: flipInX;">
-<div class="wheelLinkText" style="vertical-align: super;">
-Desarrollo <br>Estratégico
-</div>
-<div class="wheelIconB" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-</a> <!-- LINK 2 --> <a href="servicios/planeacion-estrategica/" id="link2" class="wheelLink wow flipInX   animated" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: flipInX;">
-<div class="wheelLinkText" style="text-align: right;">
-Planeación<br />
-Estratégica
-</div>
-<div class="wheelIconB" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-</a> <!-- LINK 3 --> <a href="servicios/valoracion-financiera/" id="link3" class="wheelLink wow flipInX   animated" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: flipInX;">
-<div class="wheelLinkText" style="text-align: right; vertical-align: bottom;">
-Valoración<br />
-Financiera
-</div>
-<div class="wheelIconB" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-</a> <!-- LINK 4 --> <a href="servicios/simulacion-financiera/" id="link4" class="wheelLink wow flipInX   animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: flipInX;">
-<div class="wheelIconB" aria-hidden="true" style="display: block;"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-<div class="wheelLinkText" style="padding-right: 20px;">
-Simulación<br/> Financiera
-</div>
-</a> <!-- LINK 5 --> <a href="servicios/soluciones-credito/" id="link5" class="wheelLink wow flipInX animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;">
-<div class="wheelIconB" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-<div class="wheelLinkText" style="display: block;">
-Soluciones de<br />
-Crédito
-</div>
-</a> <!-- LINK 6--> <a href="servicios/estrcuturacion-deuda/" id="link6" class="wheelLink wow flipInX animated" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: flipInX;">
-<div class="wheelIconG" style="display: block;" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-<div class="wheelLinkText" style="padding-left: 20px;">
-Estructuración de <br> Deuda
-</div>
-</a> <!-- LINK 7 --> <a href="servicios/gestion-riesgo/" id="link7" class="wheelLink wow flipInX animated" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.9s; animation-name: flipInX;">
-<div class="wheelIconG" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-<div class="wheelLinkText" style="vertical-align: middle;">
-Gestión &amp;<br />
-Riesgo
-</div>
-<div class="wheelIconG" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-</a> <!-- LINK 8 --> <a href="servicios/gestion-rentabilidad/" id="link8" class="wheelLink wow flipInX animated" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.9s; animation-name: flipInX;">
-<div class="wheelIconG" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-<div class="wheelLinkText" style="vertical-align: middle;">
-Gestión<br />
-Rentabilidad
-</div>
-<div class="wheelIconG" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-</a> <!-- LINK 9 --> <a href="servicios/planeacion-financiera/" id="link9" class="wheelLink wow flipInX animated" data-wow-delay=".9s" style="visibility: visible; animation-delay: 0.9s; animation-name: flipInX;">
-<div class="wheelIconG" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-<div class="wheelLinkText" style="vertical-align: middle;">
-Planeación<br />
-Financiera
-</div>
-</a>
-<div id="pageDown1" class="pageDown"> <img alt="Down" src="images/default-source/assets/page-down3.png" /> </div>
-</div>
-<div class="wheelWrap">
-<div class="wheelTitle">
-<div class="wheelLine1 wow bounceInDown animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s;">Nuestros</div>
-<div class="wheelLine2 wow bounceInDown animated" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s;">Servicios</div>
-</div>
-<img alt="" class="wheel" src="images/default-source/assets/home-wheel-w.png" /> </div>
-</div>
-</div>
-<div id="pageDown2" class="pageDown"> <img alt="Down" src="images/default-source/assets/page-down3.png" /> </div>
-</div></div>
-</div><div class="sf_cols bannerWrap">
-    <div class="sf_colsOut sf_1col_1_100">
-        <div id="Contentplaceholder1_C031_Col00" class="sf_colsIn sf_1col_1in_100"><div class="row" data-sf-element="Row">
-    <div id="Contentplaceholder1_C036_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1" data-placeholder-label="Column 1"><div class='sfContentBlock'><div class="bannerTitle">Blackstone Reports Fourth Quarter and Full Year 2016 Results
-</div>
-<div class="bannerSubTitle">
-<ul>
-    <li><a href="/docs/default-source/earnings/Blackstone4Q16EarningsPressRelease.pdf" target="_blank">View Full Press Release</a></li>
-    <li>View Supplemental Financial Data: <a href="/docs/default-source/earnings/Blackstone4Q16SupplementalFinancialDataPDF.pdf" target="_blank">PDF</a> | <a href="/docs/default-source/earnings/Blackstone4Q16SupplementalFinancialData.xlsx" target="_blank">Excel</a></li>
-    <li><a href="http://ir.blackstone.com/investors/events/default.aspx" target="_self">Listen to Replay</a></li>
-</ul>
-</div>
+        <div class="row">
 
+            <!-- Blog Entries Column -->
+            <div class="col-md-8">
 
-</div>
-    </div>
-</div>
-<div class="row" data-sf-element="Row">
-    <div id="Contentplaceholder1_C032_Col00" class="sf_colsIn col-md-8" data-sf-element="Column 1" data-placeholder-label="Column 1">
-    </div>
-    <div id="Contentplaceholder1_C032_Col01" class="sf_colsIn col-md-4" data-sf-element="Column 2" data-placeholder-label="Column 2">
-    </div>
-</div>
+                <h1 class="page-header">
+                    Nosotros
+                  
+                </h1>
 
-            
+                <!-- First Blog Post -->
+                <div class="textContainer center"><h1 class="mobileTitle">who do we think&nbsp;we are?</h1> <div class="text">
+
+				<br><br><br>
+
+					<p>Everyone&#8217;s talking about it. A new era in marketing. The Engagement Era. It&#8217;s a time when people are engaging with each other and the brands and issues they care about in entirely new ways. Today, people are taking control from the brands and organizations that used to do most of the talking and shaping their own stories.</p>
+
+					<p>At Weber Shandwick, we understand this new era because engaging people in conversations that matter to them is what we&#8217;ve always done. Winning today requires storytelling that&#8217;s relevant, personal and genuine. It means understanding the new power that trusted advocates wield. And, more than anything, winning demands content that&#8217;s provocative, original and irresistible.</p>
+
+					<p>We are a creative studio of writers, designers, builders, strategists, conversation-starters, storytellers. We are passionate about our clients and, through our <a href="http://www.webershandwick.com/what-we-do/specialties/specialty-firms" title="Specialty Firms">Specialty Firms</a> and dedicated <a href="/what-we-do">Practice Groups</a>, we are deeply knowledgeable about their businesses. And while we are a big, global organization, we believe that collaboration is the best way to succeed.</p>
+
+					<p>The Engagement Era is new to some, but not to us. We&#8217;re the kind of marketing company built for today. Because we didn&#8217;t start building yesterday.</p>
+
+					<p> </p>
+				</div>
+
+            	</div>
+
+            </div>
+<br><br><br>
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+				<div class="quotes">
+
+					<div><span class="quote left">“</span></div>
+
+					<p> </p>
+
+					<p>Our passion, intelligence and commitment are essential ingredients in our clients&#8217; success. <span class="quote right">”</span></p>
+
+					<p> </p>
+				</div>
+            </div>
+
         </div>
+        <!-- /.row -->
     </div>
-</div>
+    <!-- /.container -->   
+<br><br><br>
 
  
 
-<div >
-    <div ><img alt="" class="footerImg" style="width: 100%;" src="images/default-source/assets/skyline-sketch-dark.jpg" /></div>
-</div><div class="footer-reference"></div>
+
 
 <div class="sf_cols footerWrapper">
 	<div class="sf_cols footer1">
@@ -366,26 +352,25 @@ Financiera
 <nav class="footer1-links footer1-links-left multi-column" role="navigation">
 	<ul>
 			<li class="">
-				<a href="/" target="_self">Home</a>
+				<a href="../" target="_self">Home</a>
 			</li>
 			<li class="">
-				<a href="servicios/" target="_self">Servicios</a>
+				<a href="../servicios/" target="_self">Servicios</a>
 			</li>
 			<li class="">
-				<a href="nosotros/" target="_self">Nosotros</a>
+				<a href="../nosotros/" target="_self">Nosotros</a>
 			</li>
 			<li class="">
-				<a href="sectores/" target="_self">Sectores</a>
+				<a href="../sectores/" target="_self">Sectores</a>
 			</li>
 			<li class="">
-				<a href="blog/" target="_self">Blog</a>
+				<a href="../blog/" target="_self">Blog</a>
 			</li>
 			<li class="">
-				<a href="contactenos/" target="_self">Contactenos</a>
+				<a href="../contactenos/" target="_self">Contactenos</a>
 			</li>
 	</ul>
 </nav>
-
 
 
 
@@ -397,33 +382,32 @@ Financiera
 <nav class="footer1-links footer1-links-center multi-column" role="navigation">
 	<ul>
 			<li class="">
-				<a href="servicios/desarrollo-estrategico/" target="_self">Desarrollo Estrategico</a>
+				<a href="../servicios/desarrollo-estrategico/" target="_self">Desarrollo Estrategico</a>
 			</li>
 			<li class="">
-				<a href="servicios/planeacion-estrategica/" target="_self">Planeacion Estrategica</a>
+				<a href="../servicios/planeacion-estrategica/" target="_self">Planeacion Estrategica</a>
 			</li>
 			<li class="">
-				<a href="servicios/valoracion-financiera/" target="_self">Valoración Financiera</a>
+				<a href="../servicios/valoracion-financiera/" target="_self">Valoración Financiera</a>
 			</li>
 			<li class="">
-				<a href="servicios/simulacion-financiera/" target="_self">Simulacion Financiera</a>
+				<a href="../servicios/simulacion-financiera/" target="_self">Simulacion Financiera</a>
 			</li>
 				</ul><ul>
 			<li class="">
-				<a href="servicios/soluciones-credito/" target="_self">Soluciones de Credito </a>
+				<a href="../servicios/soluciones-credito/" target="_self">Soluciones de Credito </a>
 			</li>
 			<li class="">
-				<a href="servicios/estructuracion-deuda/" target="_self">Estructuración de Deuda</a>
+				<a href="../servicios/estructuracion-deuda/" target="_self">Estructuración de Deuda</a>
 			</li>
 			<li class="">
-				<a href="servicios/gestion-riesgo/" target="_self">Gestión de Riesgo </a>
+				<a href="../servicios/gestion-riesgo/" target="_self">Gestión de Riesgo </a>
 			</li>
 			<li class="">
-				<a href="servicios/gestion-rentabilidad/" target="_self">Gestion Rentabilidad </a>
+				<a href="../servicios/gestion-rentabilidad/" target="_self">Gestion Rentabilidad </a>
 			</li>
 	</ul>
 </nav>
-
 
 
 

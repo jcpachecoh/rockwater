@@ -31,7 +31,7 @@
 </script><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" media="all" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" media="all" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="../css/main.css">
 <meta name="Generator" content="Sitefinity 8.2.5914.0 PU" /><link href="/Telerik.Web.UI.WebResource.axd?d=-5RJezqR9gcYeaa9bmoAdJw1qjTKkCAeASEw8UM2CjAyFoKuJBs2pzZ-XiePdgU7GrJTOuts0aTzWLcEd9KHGdFXvld06Ag6ywHnDcahE0yxBO82IoW8xwOITXqsMgRxUwtK7w2&amp;t=636041074380000000&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Sitefinity.Resources%2c+Version%3d8.2.5914.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aen%3a16b24b29-b283-42dc-a02e-ccee7121f19f%3a7a90d6a" type="text/css" rel="stylesheet" /></head> <body><form method="post" action="./" id="aspnetForm">
 <div class="aspNetHidden">
 <input type="hidden" name="ctl05_TSM" id="ctl05_TSM" value="" />
@@ -91,7 +91,279 @@ Sys.Application.setServerId("ctl05", "ctl00$ctl05");
 Sys.Application._enableHistoryInScriptManager();
 //]]>
 </script>
+<style type="text/css">
+.container12,
+.container16 {
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+  .container12,
+  .container16 {
+    width: 1268px;
+    padding: 0 10px;
+  }
 
+	ul.tiles {
+  margin: 0;
+  list-style: none;
+}
+@media (min-width: 768px) {
+  /* line 53, ../scss/page_elements/_lists.scss */
+  ul.tiles {
+    padding-bottom: 50px;
+    padding-top: 15px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 53, ../scss/page_elements/_lists.scss */
+  ul.tiles {
+    margin-left: -20px;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 53, ../scss/page_elements/_lists.scss */
+  ul.tiles {
+    margin-left: -30px;
+  }
+}
+/* line 63, ../scss/page_elements/_lists.scss */
+ul.tiles img {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 66, ../scss/page_elements/_lists.scss */
+ul.tiles li {
+  float: left;
+  width: 100%;
+  margin: 0 0 21px;
+  position: relative;
+}
+@media (min-width: 768px) {
+  /* line 74, ../scss/page_elements/_lists.scss */
+  ul.tiles li a:hover img {
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+  }
+}
+/* line 82, ../scss/page_elements/_lists.scss */
+ul.tiles li a.close {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  z-index: 1000;
+  display: block;
+  margin: -15px 0 0 !important;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.3em;
+}
+/* line 98, ../scss/page_elements/_lists.scss */
+ul.tiles li div.details {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  position: absolute;
+  top: -5px;
+  visibility: hidden;
+  left: -5px;
+  z-index: 100;
+  padding: 15px;
+  width: 480px;
+  max-height: 240px;
+  background-color: #fff;
+  border: 2px solid #002663;
+  color: #002663;
+  overflow: auto;
+}
+/* line 117, ../scss/page_elements/_lists.scss */
+ul.tiles li div.details.on {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  visibility: visible;
+}
+/* line 122, ../scss/page_elements/_lists.scss */
+ul.tiles li div.details h2 {
+  margin-bottom: 5px;
+}
+/* line 123, ../scss/page_elements/_lists.scss */
+ul.tiles li div.details p {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+/* line 124, ../scss/page_elements/_lists.scss */
+ul.tiles li div.details img {
+  width: 180px;
+  float: left;
+  margin-right: 16px;
+}
+/* line 129, ../scss/page_elements/_lists.scss */
+ul.tiles li div.details a.close {
+  color: #002663;
+}
+/* line 133, ../scss/page_elements/_lists.scss */
+ul.tiles li div.social {
+  overflow: hidden;
+  margin-top: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-top: 1px solid #264271;
+}
+/* line 139, ../scss/page_elements/_lists.scss */
+ul.tiles li div.social a {
+  float: left;
+  color: #002663;
+  margin-right: 13px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+/* line 144, ../scss/page_elements/_lists.scss */
+ul.tiles li div.social a:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 149, ../scss/page_elements/_lists.scss */
+ul.tiles li h2 {
+  font-size: 1em;
+  font-weight: 700;
+}
+/* line 152, ../scss/page_elements/_lists.scss */
+ul.tiles li h2 small {
+  font-size: 0.8em;
+}
+@media (min-width: 768px) {
+  /* line 66, ../scss/page_elements/_lists.scss */
+  ul.tiles li {
+    width: 170px;
+    margin: 0 0 20px 20px;
+  }
+  /* line 159, ../scss/page_elements/_lists.scss */
+  ul.tiles li:nth-child(4n+1) {
+    clear: left;
+  }
+  /* line 163, ../scss/page_elements/_lists.scss */
+  ul.tiles li:nth-child(4n) div.details, ul.tiles li:nth-child(4n-1) div.details {
+    left: auto;
+    right: -5px;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 66, ../scss/page_elements/_lists.scss */
+  ul.tiles li {
+    width: 234px;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 66, ../scss/page_elements/_lists.scss */
+  ul.tiles li {
+    width: 280px;
+  }
+}
+/* line 203, ../scss/page_elements/_lists.scss */
+ul.tiles li img {
+  display: block;
+  margin-bottom: 10.5px;
+  width: 100%;
+}
+
+/* line 212, ../scss/page_elements/_lists.scss */
+ul.tiles4 {
+  list-style: none;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  /* line 212, ../scss/page_elements/_lists.scss */
+  ul.tiles4 {
+    margin-left: -20px;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 212, ../scss/page_elements/_lists.scss */
+  ul.tiles4 {
+    margin-left: -30px;
+  }
+}
+/* line 217, ../scss/page_elements/_lists.scss */
+ul.tiles4 li {
+  margin: 0 0 10.5px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  /* line 217, ../scss/page_elements/_lists.scss */
+  ul.tiles4 li {
+    float: left;
+    width: 364px;
+    margin: 0 0 20px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 217, ../scss/page_elements/_lists.scss */
+  ul.tiles4 li {
+    width: 232px;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 217, ../scss/page_elements/_lists.scss */
+  ul.tiles4 li {
+    width: 270px;
+    margin: 0 0 30px 30px;
+  }
+}
+/* line 234, ../scss/page_elements/_lists.scss */
+ul.tiles4 a {
+  display: block;
+  margin: 0;
+}
+/* line 239, ../scss/page_elements/_lists.scss */
+ul.tiles4 a:hover img {
+  -moz-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+}
+/* line 244, ../scss/page_elements/_lists.scss */
+ul.tiles4 img {
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin: 0 auto 10.5px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  /* line 244, ../scss/page_elements/_lists.scss */
+  ul.tiles4 img {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+}
+/* line 250, ../scss/page_elements/_lists.scss */
+ul.tiles4 h2 {
+  font-size: 1.14286em;
+  font-weight: 400;
+}
+
+</style>
   <div class="all-content sfPublicWrapper" id="PublicWrapper"> 
 
 <div >
@@ -118,37 +390,31 @@ Sys.Application._enableHistoryInScriptManager();
 		<div id="navbar" class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
 		<li class="dropdown">
-			<a href="" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+			<a href="../" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
 				HOME
 			</a>
 			
 		</li>
 		<li class="dropdown">
-			<a href="/rockwater/servicios/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+			<a href="/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
 				Servicios
 			</a>
 			
 		</li>
 		<li class="dropdown">
-			<a href="/rockwater/nosotros/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+			<a href="../nosotros/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
 				Nosotros
 			</a>
 			
 		</li>
 		<li class="dropdown">
-			<a href="rockwater/sectores/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
-				Sectores
-			</a>
-			
-		</li>
-		<li class="dropdown">
-			<a href="rockwater/blog/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+			<a href="../blog/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
 				Blog
 			</a>
 			
 		</li>
 		<li class="dropdown">
-			<a href="rockwater/contactenos/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+			<a href="../contactenos/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
 				Contactenos
 			</a>
 			
@@ -194,135 +460,52 @@ Sys.Application._enableHistoryInScriptManager();
 
 
 
-
-
-
-
-
-
-
- 
-
 <div >
-    <div ><div class="pageTitleWrap cover-image-full-nav">
-<div class="pageTitleBack rw-wrapper"> <!--[if IE]>
-			<div class="ieFacepalm">
-				<div class="ieLine1">We practice the art of the long view.</div>
-				<div class="ieLine2">For over 30 years,</div>
-				<div class="ieLine3">We build to last.</div>
-			</div>
-		<![endif]-->
-<div class="hero-main-text">
-<div class="line-1">
-<p>We practice the</p>
-<p><em>Art of the Long View</em></p>
-</div>
-<div class="line-2">
-For over 30 years
-</div>
-<div class="line-3">
-We build to last
-</div>
-</div>
-
-</div>
-<!-- WHEEL-->
-<div class="blackBack">
-
-<div class="wheel-wrapper">
-<div class="linkWrap"> <!-- LINK 1 --> <a href="servicios/desarrollo-estrategico/" id="link1" class="wheelLink wow flipInX   animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: flipInX;">
-<div class="wheelLinkText" style="vertical-align: super;">
-Desarrollo <br>Estratégico
-</div>
-<div class="wheelIconB" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-</a> <!-- LINK 2 --> <a href="servicios/planeacion-estrategica/" id="link2" class="wheelLink wow flipInX   animated" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: flipInX;">
-<div class="wheelLinkText" style="text-align: right;">
-Planeación<br />
-Estratégica
-</div>
-<div class="wheelIconB" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-</a> <!-- LINK 3 --> <a href="servicios/valoracion-financiera/" id="link3" class="wheelLink wow flipInX   animated" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: flipInX;">
-<div class="wheelLinkText" style="text-align: right; vertical-align: bottom;">
-Valoración<br />
-Financiera
-</div>
-<div class="wheelIconB" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-</a> <!-- LINK 4 --> <a href="servicios/simulacion-financiera/" id="link4" class="wheelLink wow flipInX   animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: flipInX;">
-<div class="wheelIconB" aria-hidden="true" style="display: block;"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-<div class="wheelLinkText" style="padding-right: 20px;">
-Simulación<br/> Financiera
-</div>
-</a> <!-- LINK 5 --> <a href="servicios/soluciones-credito/" id="link5" class="wheelLink wow flipInX animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;">
-<div class="wheelIconB" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-<div class="wheelLinkText" style="display: block;">
-Soluciones de<br />
-Crédito
-</div>
-</a> <!-- LINK 6--> <a href="servicios/estrcuturacion-deuda/" id="link6" class="wheelLink wow flipInX animated" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: flipInX;">
-<div class="wheelIconG" style="display: block;" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-<div class="wheelLinkText" style="padding-left: 20px;">
-Estructuración de <br> Deuda
-</div>
-</a> <!-- LINK 7 --> <a href="servicios/gestion-riesgo/" id="link7" class="wheelLink wow flipInX animated" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.9s; animation-name: flipInX;">
-<div class="wheelIconG" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-<div class="wheelLinkText" style="vertical-align: middle;">
-Gestión &amp;<br />
-Riesgo
-</div>
-<div class="wheelIconG" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-</a> <!-- LINK 8 --> <a href="servicios/gestion-rentabilidad/" id="link8" class="wheelLink wow flipInX animated" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.9s; animation-name: flipInX;">
-<div class="wheelIconG" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-<div class="wheelLinkText" style="vertical-align: middle;">
-Gestión<br />
-Rentabilidad
-</div>
-<div class="wheelIconG" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-</a> <!-- LINK 9 --> <a href="servicios/planeacion-financiera/" id="link9" class="wheelLink wow flipInX animated" data-wow-delay=".9s" style="visibility: visible; animation-delay: 0.9s; animation-name: flipInX;">
-<div class="wheelIconG" aria-hidden="true"> <img alt="" src="images/default-source/assets/home-wheel-btn.png" /> </div>
-<div class="wheelLinkText" style="vertical-align: middle;">
-Planeación<br />
-Financiera
-</div>
-</a>
-<div id="pageDown1" class="pageDown"> <img alt="Down" src="images/default-source/assets/page-down3.png" /> </div>
-</div>
-<div class="wheelWrap">
-<div class="wheelTitle">
-<div class="wheelLine1 wow bounceInDown animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s;">Nuestros</div>
-<div class="wheelLine2 wow bounceInDown animated" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s;">Servicios</div>
-</div>
-<img alt="" class="wheel" src="images/default-source/assets/home-wheel-w.png" /> </div>
-</div>
-</div>
-<div id="pageDown2" class="pageDown"> <img alt="Down" src="images/default-source/assets/page-down3.png" /> </div>
-</div></div>
-</div><div class="sf_cols bannerWrap">
-    <div class="sf_colsOut sf_1col_1_100">
-        <div id="Contentplaceholder1_C031_Col00" class="sf_colsIn sf_1col_1in_100"><div class="row" data-sf-element="Row">
-    <div id="Contentplaceholder1_C036_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1" data-placeholder-label="Column 1"><div class='sfContentBlock'><div class="bannerTitle">Blackstone Reports Fourth Quarter and Full Year 2016 Results
-</div>
-<div class="bannerSubTitle">
-<ul>
-    <li><a href="/docs/default-source/earnings/Blackstone4Q16EarningsPressRelease.pdf" target="_blank">View Full Press Release</a></li>
-    <li>View Supplemental Financial Data: <a href="/docs/default-source/earnings/Blackstone4Q16SupplementalFinancialDataPDF.pdf" target="_blank">PDF</a> | <a href="/docs/default-source/earnings/Blackstone4Q16SupplementalFinancialData.xlsx" target="_blank">Excel</a></li>
-    <li><a href="http://ir.blackstone.com/investors/events/default.aspx" target="_self">Listen to Replay</a></li>
-</ul>
-</div>
-
-
-</div>
+  <main role="main">
+    <div class="container12">
+                    <div class="lead">
+                <p>Hampleton concentrates on specific segments of the technology industry. Our international team of experienced sector principals provide in-depth analysis and extensive domain expertise in our focus areas.</p>
+            </div>
+                <div class="entry-content__body">
+                            <p>Our international team is made up of partners, directors and sector principals with extensive expertise and industry relationships as well as researchers, financial analysts and writers. These professionals bring invaluable and pertinent experience in our core sectors. For more information on our eight focus areas and our staff&#8217;s experience, click on the respective icon below.</p>
+                    </div>
+        <ul class="tiles4">
+                    <li data-mh="tile">
+                <a href="http://hampletonpartners.com/focusarea/services-outsourcing/">
+                    <img src="http://hampletonpartners.com/wp-content/uploads/2016/01/iStock_000016657051_Double-320x180.jpg" class="attachment-focusareas_thumbs size-focusareas_thumbs wp-post-image" alt="" />                    <h2 class="center">IT Services</h2>
+                </a>
+                        <li data-mh="tile">
+                <a href="http://hampletonpartners.com/focusarea/internet-of-things/">
+                    <img src="http://hampletonpartners.com/wp-content/uploads/2016/09/Internet-of-things-photo-1H-2016-320x180.jpg" class="attachment-focusareas_thumbs size-focusareas_thumbs wp-post-image" alt="" />                    <h2 class="center">Internet of Things</h2>
+                </a>
+                        <li data-mh="tile">
+                <a href="http://hampletonpartners.com/focusarea/high-tech-industrials/">
+                    <img src="http://hampletonpartners.com/wp-content/uploads/2015/01/iStock_000034203424_Large-320x180.jpg" class="attachment-focusareas_thumbs size-focusareas_thumbs wp-post-image" alt="" />                    <h2 class="center">High-Tech Industrials</h2>
+                </a>
+                        <li data-mh="tile">
+                <a href="http://hampletonpartners.com/focusarea/fintech/">
+                    <img src="http://hampletonpartners.com/wp-content/uploads/2016/06/FinTech-featured-photo-320x180.jpg" class="attachment-focusareas_thumbs size-focusareas_thumbs wp-post-image" alt="" />                    <h2 class="center">Fintech</h2>
+                </a>
+                        <li data-mh="tile">
+                <a href="http://hampletonpartners.com/focusarea/enterprise-software/">
+                    <img src="http://hampletonpartners.com/wp-content/uploads/2015/01/Enterprise-Software-320x180.jpg" class="attachment-focusareas_thumbs size-focusareas_thumbs wp-post-image" alt="" />                    <h2 class="center">Enterprise Software</h2>
+                </a>
+                        <li data-mh="tile">
+                <a href="http://hampletonpartners.com/focusarea/e-commerce/">
+                    <img src="http://hampletonpartners.com/wp-content/uploads/2015/01/E-Commerce-320x180.jpg" class="attachment-focusareas_thumbs size-focusareas_thumbs wp-post-image" alt="" />                    <h2 class="center">E-Commerce</h2>
+                </a>
+                        <li data-mh="tile">
+                <a href="http://hampletonpartners.com/focusarea/digital-marketing/">
+                    <img src="http://hampletonpartners.com/wp-content/uploads/2016/01/Digital-Marketing-320x180.jpg" class="attachment-focusareas_thumbs size-focusareas_thumbs wp-post-image" alt="" />                    <h2 class="center">Digital Marketing</h2>
+                </a>
+                        <li data-mh="tile">
+                <a href="http://hampletonpartners.com/focusarea/automotive-technology/">
+                    <img src="http://hampletonpartners.com/wp-content/uploads/2015/01/Auto-focus-area-picture-320x180.jpg" class="attachment-focusareas_thumbs size-focusareas_thumbs wp-post-image" alt="" />                    <h2 class="center">Automotive Technology</h2>
+                </a>
+                        </li>
+        </ul>
     </div>
-</div>
-<div class="row" data-sf-element="Row">
-    <div id="Contentplaceholder1_C032_Col00" class="sf_colsIn col-md-8" data-sf-element="Column 1" data-placeholder-label="Column 1">
-    </div>
-    <div id="Contentplaceholder1_C032_Col01" class="sf_colsIn col-md-4" data-sf-element="Column 2" data-placeholder-label="Column 2">
-    </div>
-</div>
-
-            
-        </div>
-    </div>
+</main>
 </div>
 
  
@@ -366,22 +549,22 @@ Financiera
 <nav class="footer1-links footer1-links-left multi-column" role="navigation">
 	<ul>
 			<li class="">
-				<a href="/" target="_self">Home</a>
+				<a href="/home" target="_self">Home</a>
 			</li>
 			<li class="">
-				<a href="servicios/" target="_self">Servicios</a>
+				<a href="../servicios" target="_self">Servicios</a>
 			</li>
 			<li class="">
-				<a href="nosotros/" target="_self">Nosotros</a>
+				<a href="../nosotros" target="_self">Nosotros</a>
 			</li>
 			<li class="">
-				<a href="sectores/" target="_self">Sectores</a>
+				<a href="../sectores" target="_self">Sectores</a>
 			</li>
 			<li class="">
-				<a href="blog/" target="_self">Blog</a>
+				<a href="../blog/" target="_self">Blog</a>
 			</li>
 			<li class="">
-				<a href="contactenos/" target="_self">Contactenos</a>
+				<a href="../contactenos" target="_self">Contactenos</a>
 			</li>
 	</ul>
 </nav>
@@ -397,29 +580,29 @@ Financiera
 <nav class="footer1-links footer1-links-center multi-column" role="navigation">
 	<ul>
 			<li class="">
-				<a href="servicios/desarrollo-estrategico/" target="_self">Desarrollo Estrategico</a>
+				<a href="../servicios/desarrollo-estrategico/" target="_self">Desarrollo Estrategico</a>
 			</li>
 			<li class="">
-				<a href="servicios/planeacion-estrategica/" target="_self">Planeacion Estrategica</a>
+				<a href="../servicios/planeacion-estrategica/" target="_self">Planeacion Estrategica</a>
 			</li>
 			<li class="">
-				<a href="servicios/valoracion-financiera/" target="_self">Valoración Financiera</a>
+				<a href="../servicios/valoracion-financiera/" target="_self">Valoración Financiera</a>
 			</li>
 			<li class="">
-				<a href="servicios/simulacion-financiera/" target="_self">Simulacion Financiera</a>
+				<a href="../servicios/simulacion-financiera/" target="_self">Simulacion Financiera</a>
 			</li>
 				</ul><ul>
 			<li class="">
-				<a href="servicios/soluciones-credito/" target="_self">Soluciones de Credito </a>
+				<a href="../servicios/soluciones-credito/" target="_self">Soluciones de Credito </a>
 			</li>
 			<li class="">
-				<a href="servicios/estructuracion-deuda/" target="_self">Estructuración de Deuda</a>
+				<a href="../servicios/estructuracion-deuda/" target="_self">Estructuración de Deuda</a>
 			</li>
 			<li class="">
-				<a href="servicios/gestion-riesgo/" target="_self">Gestión de Riesgo </a>
+				<a href="../servicios/gestion-riesgo/" target="_self">Gestión de Riesgo </a>
 			</li>
 			<li class="">
-				<a href="servicios/gestion-rentabilidad/" target="_self">Gestion Rentabilidad </a>
+				<a href="../servicios/gestion-rentabilidad/" target="_self">Gestion Rentabilidad </a>
 			</li>
 	</ul>
 </nav>
