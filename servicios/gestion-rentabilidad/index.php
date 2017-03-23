@@ -65,7 +65,7 @@ function __doPostBack(eventTarget, eventArgument) {
 width: 100%;  
 height: 100%;  
 display: table;  
-background: url(../../images/BOhomepg.jpg) no-repeat center center;  
+background: url(../../images/servicios-big/gestion-de-rentabilidad.jpg) no-repeat center center;  
 background-size: cover;  
 }
 
@@ -153,103 +153,19 @@ Sys.Application._enableHistoryInScriptManager();
 
 
 
-<nav class="navbar bx-navbar navbar-static-top" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="/">
-				<img src="images/rockwater.png">
-			</a>
-		</div>
+<?php include("../../header.html");?>
 
-		<div id="navbar" class="collapse navbar-collapse">
-			<ul class="nav navbar-nav">
-		<li class="dropdown">
-			<a href="../../" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
-				HOME
-			</a>
-			
-		</li>
-		<li class="dropdown">
-			<a href="../../servicios/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
-				Servicios
-			</a>
-			
-		</li>
-		<li class="dropdown">
-			<a href="/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
-				Nosotros
-			</a>
-			
-		</li>
-		<li class="dropdown">
-			<a href="../../sectores/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
-				Sectores
-			</a>
-			
-		</li>
-		<li class="dropdown">
-			<a href="../../blog/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
-				Blog
-			</a>
-			
-		</li>
-		<li class="dropdown">
-			<a href="../../contactenos/" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
-				Contactenos
-			</a>
-			
-		</li>
-	
 
-				<li class="dropdown search-dropdown">
-					<a href="/search" data-toggle="dropdown" class="dropdown-toggle" title="Search">
-						<i class="fa fa-search"></i>
-					</a>
-				
-				</li>
-			</ul>
-		</div>
+<div style="background-color: #BED600">
+    <br>
+</div>
+  <div style="background-color: #0A98C3;color: #ffffff">
+        <div class="container">
+               <br><h1>Gestión Rentabilidad</h1><br>
+            </div>
+        </div>
 
-		<div class="nav-buttons">
-			<a href="https://twitter.com/blackstone" target="_blank" title="Follow Blackstone on Twitter" class="twitter-ico">
-				<i class="fa bx-icon-twitter"></i>
-			</a>
-
-			<a href="https://www.linkedin.com/company/the-blackstone-group" target="_blank" title="Blackstone on LinkedIn" class="linkedin-ico">
-				<i class="fa bx-icon-linkedin"></i>
-			</a>
-
-			<a href="https://www.facebook.com/blackstone" target="_blank" title="Like Blackstone on Facebook" class="facebook-ico">
-				<i class="fa bx-icon-facebook"></i>
-			</a>
-
-			<a href="https://www.instagram.com/blackstone/" target="_blank" title="Follow Blackstone on Instagram" class="instagram-ico">
-				<i class="fa bx-icon-instagram"></i>
-			</a>
-
-			<a href="/contact-us" title="Sign up for email alerts" class="launch-email-alert-signup email-ico">
-				<i class="fa fa-envelope"></i>
-			</a>
-
-			<a href="https://www.bxaccess.com/" target="_blank" title="Limited Partner Login (BXAccess)" class="login-link">
-				Login
-			</a>
-		</div>
-	</div>
 </nav>
-
-
-
-
-
-
-
 
 
 
@@ -268,10 +184,7 @@ Sys.Application._enableHistoryInScriptManager();
             <!-- Blog Entries Column -->
             <div class="col-md-8">
 
-                <h1 class="page-header">
-                    Desarrollo Estrategico
-                  
-                </h1>
+              
 
                 <!-- First Blog Post -->
                 <div class="textContainer center"><h1 class="mobileTitle">who do we think&nbsp;we are?</h1> <div class="text">
@@ -332,130 +245,21 @@ For data on valuations, information about acquisition drivers and trends, as wel
 
 
 
-<div class="sf_cols footerWrapper">
-	<div class="sf_cols footer1">
-		<div class="sf_cols footer1-top">
-			<div class="row containerBody" data-sf-element="Row">
-				<div id="Footer_T555C771D013_Col00" class="sf_colsIn col-sm-3">
 <div >
-    <div ><div class="footerTitle footer1-top-left"><em class="fa fa-link"></em>Quick Links</div></div>
-</div>
-					<div class="footerTitle footer1-top-left" data-sf-element="Column 1" data-placeholder-label="Column 1">
-					</div>
-				</div>
-				<div id="Footer_T555C771D013_Col01" class="sf_colsIn col-sm-6">
-<div >
-    <div ><div class="footerTitle footer1-top-center"><em class="fa fa-globe"></em>Productos y Servicios</div></div>
-</div>
-					<div class="footerTitle footer1-top-center" data-sf-element="Column 2" data-placeholder-label="Column 2">
-					</div>
-				</div>
-				<div id="Footer_T555C771D013_Col02" class="sf_colsIn col-sm-3">
-<div >
-    <div ><div class="footerTitle footer1-top-right"><em class="fa fa-envelope-o"></em>Contactenos</div></div>
-</div>
-					<div class="footerTitle footer1-top-right" data-sf-element="Column 3" data-placeholder-label="Column 3">
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="footer1-bottom">
-			<div class="row containerBody">
-				<div id="Footer_T555C771D013_Col03" class="sf_colsIn col-sm-3" data-sf-element="Column 4" data-placeholder-label="Column 4">
+    <div ><img alt="" class="footerImg" style="width: 100%;" src="http://www.jcpachecoh.com/rockwater/images/banner_2_home.jpg" /></div>
+</div><div class="footer-reference"></div>
+<!--***************************************FOOTER**********************************************-->
 
-
-<nav class="footer1-links footer1-links-left multi-column" role="navigation">
-	<ul>
-			<li class="">
-				<a href="../../" target="_self">Home</a>
-			</li>
-			<li class="">
-				<a href="../../servicios/" target="_self">Servicios</a>
-			</li>
-			<li class="">
-				<a href="../../nosotros/" target="_self">Nosotros</a>
-			</li>
-			<li class="">
-				<a href="../../sectores/" target="_self">Sectores</a>
-			</li>
-			<li class="">
-				<a href="../../blog/" target="_self">Blog</a>
-			</li>
-			<li class="">
-				<a href="../../contactenos/" target="_self">Contactenos</a>
-			</li>
-	</ul>
-</nav>
+<?php include("../../footer.html");?>
+<!--header-->
 
 
 
-					<div class="footer1-links-left"></div>
-				</div>
-				<div id="Footer_T555C771D013_Col04" class="sf_colsIn col-sm-6" data-sf-element="Column 5" data-placeholder-label="Column 5">
-
-
-<nav class="footer1-links footer1-links-center multi-column" role="navigation">
-	<ul>
-			<li class="">
-				<a href="../desarrollo-estrategico/" target="_self">Desarrollo Estrategico</a>
-			</li>
-			<li class="">
-				<a href="../planeacion-estrategica/" target="_self">Planeacion Estrategica</a>
-			</li>
-			<li class="">
-				<a href="../valoracion-financiera/" target="_self">Valoración Financiera</a>
-			</li>
-			<li class="">
-				<a href="../simulacion-financiera/" target="_self">Simulacion Financiera</a>
-			</li>
-				</ul><ul>
-			<li class="">
-				<a href="../soluciones-credito/" target="_self">Soluciones de Credito </a>
-			</li>
-			<li class="">
-				<a href="../estructuracion-deuda/" target="_self">Estructuración de Deuda</a>
-			</li>
-			<li class="">
-				<a href="../gestion-riesgo/" target="_self">Gestión de Riesgo </a>
-			</li>
-			<li class="">
-				<a href="../gestion-rentabilidad/" target="_self">Gestion Rentabilidad </a>
-			</li>
-	</ul>
-</nav>
 
 
 
-					<div class="footer1-links-center"></div>
-				</div>
-				<div id="Footer_T555C771D013_Col05" class="sf_colsIn col-sm-3" data-sf-element="Column 6" data-placeholder-label="Column 6">
 
-
-<nav class="footer1-links footer1-links-right" role="navigation">
-	<ul>
-			<li class="">
-				<a href="/careers" target="_self">Careers</a>
-			</li>
-			<li class="">
-				<a href="/the-firm/our-offices" target="_self">Our Offices</a>
-			</li>
-			<li class="">
-				<a href="https://bxaccess.com/portal" target="_blank">Limited Partner Login</a>
-			</li>
-			<li class="">
-				<a href="/contact-us" target="_self">Contact Us</a>
-			</li>
-	</ul>
-</nav>
-
-
-
-					<div class="footer1-links-right"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-
+	
 	<div class="row small-footer">
 		<div id="Footer_T555C771D013_Col06" class="sf_colsIn col-sm-12" data-sf-element="Column 9" data-placeholder-label="Column 9">
 <div >
@@ -501,70 +305,5 @@ For data on valuations, information about acquisition drivers and trends, as wel
 </div>
 
  </div>  
-<script type="text/javascript">$( document ).ready(function() {
- var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
- if (isSafari) {$(".cover-image-full-nav").addClass("iosSafari");}
-});</script>
-<script type="text/javascript">
-//<![CDATA[
-var sf_appPath='/';;(function() {
-                        function loadHandler() {
-                            var hf = $get('ctl06_TSSM');
-                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
-                            hf.value += ';Telerik.Sitefinity.Resources, Version=8.2.5914.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:en:16b24b29-b283-42dc-a02e-ccee7121f19f:7a90d6a';
-                            Sys.Application.remove_load(loadHandler);
-                        };
-                        Sys.Application.add_load(loadHandler);
-                    })();Sys.Application.add_init(function() {
-    $create(Telerik.Sitefinity.Web.UI.Fields.TextField, {"_allowNulls":false,"_conditionalTemplatesContainerId":"ctl00_Contentplaceholder1_C014_newsFrontendList_ctl00_ctl00_NewsList_ctrl0_ctl01_ctl00_ConditionalTemplates","_currentCondition":"displaymode-equal-read","_maxChars":0,"_textBoxId":"textBox_write","_textLabelId":"textLabel_read","_trimSpaces":false,"_unit":null,"conditionDictionary":{"displaymode-equal-read":"ctl00_Contentplaceholder1_C014_newsFrontendList_ctl00_ctl00_NewsList_ctrl0_ctl01_ctl00_ctl00_conditionalTemplate","displaymode-equal-write":"ClientTemplatePanel_"},"controlErrorCssClass":null,"dataFieldName":null,"dataFormatString":null,"defaultValue":"The Ten Surprises of 2017 have a generally constructive tone.  President Trump campaigned promising significant change to the American people.  He raised expectations, and that’s why he won.  Now he has to get his pro-growth agenda implemented. ","description":null,"descriptionElement":$get("ctl00_Contentplaceholder1_C014_newsFrontendList_ctl00_ctl00_NewsList_ctrl0_ctl01_ctl00_ctl00_descriptionLabel_read"),"displayMode":0,"example":null,"fieldName":null,"labelElement":$get("ctl00_Contentplaceholder1_C014_newsFrontendList_ctl00_ctl00_NewsList_ctrl0_ctl01_ctl00_ctl00_textLabel_read"),"suffix":"_ctl01","title":null,"titleElement":$get("ctl00_Contentplaceholder1_C014_newsFrontendList_ctl00_ctl00_NewsList_ctrl0_ctl01_ctl00_ctl00_titleLabel_read"),"validatorDefinition":"{\"AlphaNumericViolationMessage\":\"Non alphanumeric characters are not allowed.\",\"ComparingValidatorDefinitions\":[],\"CurrencyViolationMessage\":\"You have entered an invalid currency.\",\"EmailAddressViolationMessage\":\"You have entered an invalid email address.\",\"ExpectedFormat\":0,\"IntegerViolationMessage\":\"You have entered an invalid integer.\",\"InternetUrlViolationMessage\":\"You have entered an invalid URL.\",\"MaxLength\":0,\"MaxLengthViolationMessage\":\"Too long\",\"MaxValue\":null,\"MaxValueViolationMessage\":\"Too big\",\"MessageCssClass\":null,\"MessageTagName\":\"div\",\"MinLength\":0,\"MinLengthViolationMessage\":\"Too short.\",\"MinValue\":null,\"MinValueViolationMessage\":\"Too small.\",\"NonAlphaNumericViolationMessage\":\"Alphanumeric characters are not allowed.\",\"NumericViolationMessage\":\"You have entered an invalid number.\",\"PercentageViolationMessage\":\"You have entered an invalid percentage.\",\"RegularExpression\":null,\"RegularExpressionSeparator\":null,\"RegularExpressionViolationMessage\":\"Invalid format\",\"Required\":null,\"RequiredViolationMessage\":\"Required field.\",\"ResourceClassId\":\"\",\"USSocialSecurityNumberViolationMessage\":\"You have entered an invalid US social security number.\",\"USZipCodeViolationMessage\":\"You have entered an invalid US ZIP code.\",\"ValidateIfInvisible\":true}","value":"The Ten Surprises of 2017 have a generally constructive tone.  President Trump campaigned promising significant change to the American people.  He raised expectations, and that’s why he won.  Now he has to get his pro-growth agenda implemented. "}, null, null, $get("ctl00_Contentplaceholder1_C014_newsFrontendList_ctl00_ctl00_NewsList_ctrl0_ctl01"));
-});
-Sys.Application.add_init(function() {
-    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$Contentplaceholder1$C014$newsFrontendList$ctl00$ctl00$NewsList","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_Contentplaceholder1_C014_newsFrontendList_ctl00_ctl00_NewsList_ItemsContainer","DataService":{}}},"_virtualItemCount":1,"clientStateFieldID":"ctl00_Contentplaceholder1_C014_newsFrontendList_ctl00_ctl00_NewsList_ClientState","renderMode":1}, null, null, $get("ctl00_Contentplaceholder1_C014_newsFrontendList_ctl00_ctl00_NewsList"));
-});
-Sys.Application.add_init(function() {
-    $create(Telerik.Sitefinity.Web.UI.UserPreferences, {"_timeOffset":"-18000000","_userBrowserSettingsForCalculatingDates":true,"timeZoneDisplayName":"(UTC-05:00) Eastern Time (US \u0026 Canada)","timeZoneId":"Eastern Standard Time"}, null, null);
-});
-Sys.Application.add_init(function() {
-    $create(Telerik.Sitefinity.Web.UI.Fields.TextField, {"_allowNulls":false,"_conditionalTemplatesContainerId":"ctl00_Contentplaceholder1_C017_newsFrontendList_ctl00_ctl00_NewsList_ctrl0_ctl01_ctl00_ConditionalTemplates","_currentCondition":"displaymode-equal-read","_maxChars":0,"_textBoxId":"textBox_write","_textLabelId":"textLabel_read","_trimSpaces":false,"_unit":null,"conditionDictionary":{"displaymode-equal-read":"ctl00_Contentplaceholder1_C017_newsFrontendList_ctl00_ctl00_NewsList_ctrl0_ctl01_ctl00_ctl00_conditionalTemplate","displaymode-equal-write":"ClientTemplatePanel_"},"controlErrorCssClass":null,"dataFieldName":null,"dataFormatString":null,"defaultValue":"Mayor Rahm Emanuel today joined Blackstone (NYSE: BX) and Equity Office, an office portfolio company owned by Blackstone’s real estate funds, to announce visionary plans for Willis Tower in downtown Chicago, an architectural icon and one of the world’s tallest buildings. ","description":null,"descriptionElement":$get("ctl00_Contentplaceholder1_C017_newsFrontendList_ctl00_ctl00_NewsList_ctrl0_ctl01_ctl00_ctl00_descriptionLabel_read"),"displayMode":0,"example":null,"fieldName":null,"labelElement":$get("ctl00_Contentplaceholder1_C017_newsFrontendList_ctl00_ctl00_NewsList_ctrl0_ctl01_ctl00_ctl00_textLabel_read"),"suffix":"_ctl01","title":null,"titleElement":$get("ctl00_Contentplaceholder1_C017_newsFrontendList_ctl00_ctl00_NewsList_ctrl0_ctl01_ctl00_ctl00_titleLabel_read"),"validatorDefinition":"{\"AlphaNumericViolationMessage\":\"Non alphanumeric characters are not allowed.\",\"ComparingValidatorDefinitions\":[],\"CurrencyViolationMessage\":\"You have entered an invalid currency.\",\"EmailAddressViolationMessage\":\"You have entered an invalid email address.\",\"ExpectedFormat\":0,\"IntegerViolationMessage\":\"You have entered an invalid integer.\",\"InternetUrlViolationMessage\":\"You have entered an invalid URL.\",\"MaxLength\":0,\"MaxLengthViolationMessage\":\"Too long\",\"MaxValue\":null,\"MaxValueViolationMessage\":\"Too big\",\"MessageCssClass\":null,\"MessageTagName\":\"div\",\"MinLength\":0,\"MinLengthViolationMessage\":\"Too short.\",\"MinValue\":null,\"MinValueViolationMessage\":\"Too small.\",\"NonAlphaNumericViolationMessage\":\"Alphanumeric characters are not allowed.\",\"NumericViolationMessage\":\"You have entered an invalid number.\",\"PercentageViolationMessage\":\"You have entered an invalid percentage.\",\"RegularExpression\":null,\"RegularExpressionSeparator\":null,\"RegularExpressionViolationMessage\":\"Invalid format\",\"Required\":null,\"RequiredViolationMessage\":\"Required field.\",\"ResourceClassId\":\"\",\"USSocialSecurityNumberViolationMessage\":\"You have entered an invalid US social security number.\",\"USZipCodeViolationMessage\":\"You have entered an invalid US ZIP code.\",\"ValidateIfInvisible\":true}","value":"Mayor Rahm Emanuel today joined Blackstone (NYSE: BX) and Equity Office, an office portfolio company owned by Blackstone’s real estate funds, to announce visionary plans for Willis Tower in downtown Chicago, an architectural icon and one of the world’s tallest buildings. "}, null, null, $get("ctl00_Contentplaceholder1_C017_newsFrontendList_ctl00_ctl00_NewsList_ctrl0_ctl01"));
-});
-Sys.Application.add_init(function() {
-    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$Contentplaceholder1$C017$newsFrontendList$ctl00$ctl00$NewsList","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_Contentplaceholder1_C017_newsFrontendList_ctl00_ctl00_NewsList_ItemsContainer","DataService":{}}},"_virtualItemCount":1,"clientStateFieldID":"ctl00_Contentplaceholder1_C017_newsFrontendList_ctl00_ctl00_NewsList_ClientState","renderMode":1}, null, null, $get("ctl00_Contentplaceholder1_C017_newsFrontendList_ctl00_ctl00_NewsList"));
-});
-Sys.Application.add_init(function() {
-    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$Contentplaceholder1$C018$newsFrontendList$ctl00$ctl00$NewsList","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_Contentplaceholder1_C018_newsFrontendList_ctl00_ctl00_NewsList_ItemsContainer","DataService":{}}},"_virtualItemCount":1,"clientStateFieldID":"ctl00_Contentplaceholder1_C018_newsFrontendList_ctl00_ctl00_NewsList_ClientState","renderMode":1}, null, null, $get("ctl00_Contentplaceholder1_C018_newsFrontendList_ctl00_ctl00_NewsList"));
-});
-//]]>
-</script>
-</form><script type="text/javascript">
-	StatsClient.LogVisit('a0314a8d-5ef4-6405-bb7f-ff0000178425', '15d36964-6b89-426b-8545-94ca1c516274');
-</script><script type="text/javascript">
-if (Modernizr.touch) { 
-    $( "*" ).removeClass('wow');
-} else { 
-    
-}
-</script><script type="text/javascript">
-(function() {
-   var cx = '000832116712018647211:zaya0txx4dy';
-   var gcse = document.createElement('script');
-   gcse.type = 'text/javascript';
-   gcse.async = true;
-   gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-       '//cse.google.com/cse.js?cx=' + cx;
-   var s = document.getElementsByTagName('script')[0];
-   s.parentNode.insertBefore(gcse, s);
- })();
-</script><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script><script type="text/javascript">
-piAId = '214192';
-piCId = '1782';
-
-(function() {
-	function async_load(){
-		var s = document.createElement('script'); s.type = 'text/javascript';
-		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
-		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
-	}
-	if(window.attachEvent) { window.attachEvent('onload', async_load); }
-	else { window.addEventListener('load', async_load, false); }
-})();
-</script></body> </html>
+ </footer>
+</body> </html>
