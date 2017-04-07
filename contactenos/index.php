@@ -91,22 +91,6 @@ form .error {
   color: #ff0000;
 }
 
-#map {
- 
-    height:442px;
-    width:50%; 
-    display:inline-block;
-
-}
-#leftnav {
-    float:left;
-    width:50%; 
-    display:inline-block;
-    height: 442px;  
-    background-size:100%;
-    background-image: url('../images/bogota_02.jpg');
-    background-repeat: repeat-x;
-}
 
 </style>
 
@@ -132,20 +116,21 @@ form .error {
                     
                
              
-        
-            <div id="leftnav">
-
+    <div class="container">    
+            <div class="col-md-6">
+            <img height="450" width="100%" src="../images/bogota_02.jpg">
               
 				
             </div>
 
             <!-- Blog Sidebar Widgets Column -->
-            <div id="map" >
+            <div  class="col-md-6" >
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58255.908428623494!2d-74.06733837069586!3d4.675122789592674!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a8de8593a67%3A0x92611c3f91e482ef!2sRockwater+Partners!5e0!3m2!1sen!2s!4v1490879538239" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58255.908428623494!2d-74.06733837069586!3d4.675122789592674!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a8de8593a67%3A0x92611c3f91e482ef!2sRockwater+Partners!5e0!3m2!1sen!2s!4v1490879538239" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
 
-   
+   </div>
+   <br><br>
 
         <hr>
 <div class="container">
