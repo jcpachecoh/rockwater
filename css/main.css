@@ -8,7 +8,7 @@
 .hero-main-text div {
 	opacity: 0;
 	color: #fff;
-	font-family: Lora;
+	font-family: Raleway;
 	font-size: 9vw;
 	line-height: 1em;
 }
@@ -112,7 +112,7 @@
 
 .ieLine2 {
 	font-style: italic;
-	font-family: Lora;
+	font-family: Raleway;
 	padding-left: 20px;
 }
 
@@ -297,7 +297,7 @@
 	width: 100%;
 	font-size: 60px;
 	padding-left: 150px;
-	font-family: lora;
+	font-family: Raleway;
 	z-index: 7;
 }
 
@@ -660,7 +660,7 @@
 .bannerq{
   display:none;
       font-size: 1140px;
-    font-family: lora;
+    font-family: Raleway;
     opacity: .6;
     line-height: 0;
     margin-top: 380px;
@@ -709,7 +709,7 @@
   .bannerq{
     display:block;
     font-size: 960px;
-    font-family: lora;
+    font-family: Raleway;
     opacity: .6;
     line-height: 0;
     margin-top: 300px;
@@ -729,7 +729,7 @@
   
   .bannerq{
     font-size: 980px;
-    font-family: lora;
+    font-family: Raleway;
     opacity: .6;
     line-height: 0;
     margin-top: 363px;
@@ -7810,7 +7810,7 @@ a,a:active,a:focus {
 }
 
 h1,h2,h3,h4,h6,.h1,.h2,.h3,.h4,.h6 {
-    font-family: Lora;
+    font-family: Raleway;
     font-weight: 400;
     line-height: 1.1
 }
@@ -7950,7 +7950,7 @@ body {
 }
 
 h1,h2,h3,h4,h6,.h1,.h2,.h3,.h4,.h6 {
-    font-family: Lora;
+    font-family: Raleway;
     font-weight: 400
 }
 
@@ -8138,7 +8138,7 @@ a,a img {
 
 .page-title h1 {
     font-size: 38px;
-    font-family: Lora,serif
+    font-family: Raleway,serif
 }
 
 .page-title h1,.page-title p.description {
@@ -8166,7 +8166,7 @@ a,a img {
 }
 
 .callOutTitle {
-    font-family: Lora;
+    font-family: Raleway;
     font-weight: 400;
     font-style: italic;
     font-size: 22px;
@@ -9978,7 +9978,7 @@ body.translate .lang-only-en {
     top: 20px;
     right: 80px;
     color: #333;
-    font-family: Lora;
+    font-family: Raleway;
     font-weight: 400;
     font-style: italic;
     font-size: 2.2rem;
@@ -10455,7 +10455,7 @@ body.translate .lang-only-en {
     font-size: 22px;
     line-height: 36px;
     margin-bottom: 0;
-    font-family: lora;
+    font-family: Raleway;
     font-style: italic
 }
 
@@ -15000,7 +15000,7 @@ body.translate .lang-only-en {
 }
 
 .gsc-control-cse .gs-result .gs-title {
-    font-family: "Lora"!important;
+    font-family: "Raleway"!important;
     font-kerning: normal!important;
     font-size: 20px!important;
     text-decoration: none!important
@@ -15262,7 +15262,7 @@ section.bio header {
 section.bio h4 {
     font-size: 22px;
     font-style: italic;
-    font-family: 'Lora',serif
+    font-family: 'Raleway',serif
 }
 
 section.bio h5 {
@@ -15598,7 +15598,7 @@ section.bio .view-all {
 
 .bx-quote-bar figure {
     margin: 0 0 2rem 0;
-    font-family: Lora,serif
+    font-family: Raleway,serif
 }
 
 .bx-quote-bar figure span {
@@ -15628,7 +15628,7 @@ section.bio .view-all {
 
     .bx-quote-bar.pullout-quote-left blockquote .quote::before,.bx-quote-bar.pullout-quote-left-large blockquote .quote::before {
         content: "“";
-        font-family: Lora,serif;
+        font-family: Raleway,serif;
         font-size: 20rem;
         position: absolute;
         top: 6rem;

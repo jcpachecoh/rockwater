@@ -1,0 +1,271 @@
+.container12,
+.container16 {
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+  .container12,
+  .container16 {
+    width: 1268px;
+    padding: 0 60px;
+  }
+
+	ul.tiles {
+  margin: 0;
+  list-style: none;
+}
+@media (min-width: 768px) {
+  /* line 53, ../scss/page_elements/_lists.scss */
+  ul.tiles {
+    padding-bottom: 50px;
+    padding-top: 15px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 53, ../scss/page_elements/_lists.scss */
+  ul.tiles {
+    margin-left: -20px;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 53, ../scss/page_elements/_lists.scss */
+  ul.tiles {
+    margin-left: -30px;
+  }
+}
+/* line 63, ../scss/page_elements/_lists.scss */
+ul.tiles img {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 66, ../scss/page_elements/_lists.scss */
+ul.tiles li {
+  float: left;
+  width: 100%;
+  margin: 0 0 21px;
+  position: relative;
+}
+@media (min-width: 768px) {
+  /* line 74, ../scss/page_elements/_lists.scss */
+  ul.tiles li a:hover img {
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+  }
+}
+/* line 82, ../scss/page_elements/_lists.scss */
+ul.tiles li a.close {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  z-index: 1000;
+  display: block;
+  margin: -15px 0 0 !important;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.3em;
+}
+/* line 98, ../scss/page_elements/_lists.scss */
+ul.tiles li div.details {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  position: absolute;
+  top: -5px;
+  visibility: hidden;
+  left: -5px;
+  z-index: 100;
+  padding: 15px;
+  width: 480px;
+  max-height: 240px;
+  background-color: #fff;
+  border: 2px solid #002663;
+  color: #002663;
+  overflow: auto;
+}
+/* line 117, ../scss/page_elements/_lists.scss */
+ul.tiles li div.details.on {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  visibility: visible;
+}
+/* line 122, ../scss/page_elements/_lists.scss */
+ul.tiles li div.details h2 {
+  margin-bottom: 5px;
+}
+/* line 123, ../scss/page_elements/_lists.scss */
+ul.tiles li div.details p {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+/* line 124, ../scss/page_elements/_lists.scss */
+ul.tiles li div.details img {
+  width: 180px;
+  float: left;
+  margin-right: 16px;
+}
+/* line 129, ../scss/page_elements/_lists.scss */
+ul.tiles li div.details a.close {
+  color: #002663;
+}
+/* line 133, ../scss/page_elements/_lists.scss */
+ul.tiles li div.social {
+  overflow: hidden;
+  margin-top: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-top: 1px solid #264271;
+}
+/* line 139, ../scss/page_elements/_lists.scss */
+ul.tiles li div.social a {
+  float: left;
+  color: #002663;
+  margin-right: 13px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+/* line 144, ../scss/page_elements/_lists.scss */
+ul.tiles li div.social a:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 149, ../scss/page_elements/_lists.scss */
+ul.tiles li h2 {
+  font-size: 1em;
+  font-weight: 700;
+}
+/* line 152, ../scss/page_elements/_lists.scss */
+ul.tiles li h2 small {
+  font-size: 0.8em;
+}
+@media (min-width: 768px) {
+  /* line 66, ../scss/page_elements/_lists.scss */
+  ul.tiles li {
+    width: 170px;
+    margin: 0 0 20px 20px;
+  }
+  /* line 159, ../scss/page_elements/_lists.scss */
+  ul.tiles li:nth-child(4n+1) {
+    clear: left;
+  }
+  /* line 163, ../scss/page_elements/_lists.scss */
+  ul.tiles li:nth-child(4n) div.details, ul.tiles li:nth-child(4n-1) div.details {
+    left: auto;
+    right: -5px;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 66, ../scss/page_elements/_lists.scss */
+  ul.tiles li {
+    width: 234px;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 66, ../scss/page_elements/_lists.scss */
+  ul.tiles li {
+    width: 280px;
+  }
+}
+/* line 203, ../scss/page_elements/_lists.scss */
+ul.tiles li img {
+  display: block;
+  margin-bottom: 10.5px;
+  width: 100%;
+}
+
+/* line 212, ../scss/page_elements/_lists.scss */
+ul.tiles4 {
+  list-style: none;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  /* line 212, ../scss/page_elements/_lists.scss */
+  ul.tiles4 {
+    margin-left: -20px;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 212, ../scss/page_elements/_lists.scss */
+  ul.tiles4 {
+    margin-left: -30px;
+  }
+}
+/* line 217, ../scss/page_elements/_lists.scss */
+ul.tiles4 li {
+  margin: 0 0 10.5px;
+  text-align: center;
+  width: 290px;
+}
+@media (min-width: 768px) {
+  /* line 217, ../scss/page_elements/_lists.scss */
+  ul.tiles4 li {
+    float: left;
+    width: 364px;
+    margin: 0 0 20px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 217, ../scss/page_elements/_lists.scss */
+  ul.tiles4 li {
+    width: 282px;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 217, ../scss/page_elements/_lists.scss */
+  ul.tiles4 li {
+    width: 315px;
+    margin: 0 0 30px 30px;
+  }
+}
+/* line 234, ../scss/page_elements/_lists.scss */
+ul.tiles4 a {
+  display: block;
+  margin: 0;
+}
+/* line 239, ../scss/page_elements/_lists.scss */
+ul.tiles4 a:hover img {
+  -moz-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+}
+/* line 244, ../scss/page_elements/_lists.scss */
+ul.tiles4 img {
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin: 0 auto 10.5px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  /* line 244, ../scss/page_elements/_lists.scss */
+  ul.tiles4 img {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+}
+/* line 250, ../scss/page_elements/_lists.scss */
+ul.tiles4 h2 {
+  font-size: 1.14286em;
+  font-weight: 400;
+}
